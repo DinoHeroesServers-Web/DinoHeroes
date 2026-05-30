@@ -42,8 +42,8 @@
   .wrapper{max-width:1100px;margin:0 auto;padding:20px 40px 100px;}
   .letter-section{margin-bottom:40px;}
   .letter-header{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;letter-spacing:4px;color:rgba(212,160,23,0.2);border-bottom:1px solid rgba(212,160,23,0.1);padding-bottom:8px;margin-bottom:16px;}
-  .dinos-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;}
-  .dino-card{background:var(--dark-3);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;transition:all 0.2s;}
+  .dinos-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
+  .dino-card{background:var(--dark-3);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:16px;transition:all 0.2s;}
   .dino-card:hover{border-color:rgba(212,160,23,0.3);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.3);}
   .dino-card.dlc{border-color:rgba(0,201,167,0.15);}
   .dino-card.dlc:hover{border-color:rgba(0,201,167,0.4);}
@@ -51,12 +51,12 @@
   .dlc-badge{font-size:0.6rem;font-weight:700;letter-spacing:1px;background:rgba(0,201,167,0.15);color:var(--teal);border:1px solid rgba(0,201,167,0.3);padding:2px 6px;border-radius:4px;}
   .lc-badge{font-size:0.6rem;font-weight:700;letter-spacing:1px;background:rgba(155,89,182,0.15);color:#9b59b6;border:1px solid rgba(155,89,182,0.3);padding:2px 6px;border-radius:4px;}
   .dino-variants{display:flex;flex-direction:column;gap:4px;}
-  .dino-variant{display:flex;align-items:center;justify-content:space-between;gap:4px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.04);font-size:0.78rem;}
+  .dino-variant{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04);font-size:0.82rem;flex-wrap:nowrap;}
   .dino-variant:last-child{border-bottom:none;}
   .variant-info{display:flex;align-items:center;gap:4px;color:var(--text-dim);min-width:0;}
-  .variant-cmd{font-family:monospace;font-size:0.68rem;color:rgba(0,201,167,0.7);background:rgba(0,201,167,0.06);padding:2px 4px;border-radius:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:110px;}
-  .variant-price{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:0.8rem;color:var(--gold-light);white-space:nowrap;flex-shrink:0;}
-  .variant-lvl{font-size:0.68rem;color:var(--text-dim);white-space:nowrap;}
+  .variant-cmd{font-family:monospace;font-size:0.72rem;color:rgba(0,201,167,0.7);background:rgba(0,201,167,0.06);padding:2px 6px;border-radius:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:120px;}
+  .variant-price{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:0.85rem;color:var(--gold-light);white-space:nowrap;flex-shrink:0;}
+  .variant-lvl{font-size:0.72rem;color:var(--text-dim);white-space:nowrap;}
   .no-results{text-align:center;padding:60px;color:var(--text-dim);font-size:1rem;}
   footer{background:var(--dark-2);border-top:1px solid var(--border);padding:40px;text-align:center;}
   .footer-logo{font-family:'Bebas Neue',sans-serif;font-size:2rem;letter-spacing:6px;background:linear-gradient(135deg,var(--gold),var(--gold-light));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:12px;}
@@ -90,7 +90,7 @@
       <div class="guide-item"><span class="guide-cmd">/points</span> Ver tus puntos</div>
       <div class="guide-item"><span class="guide-cmd">/shop</span> Abrir la tienda</div>
       <div class="guide-item"><span class="guide-cmd">/buy [id]</span> Comprar un dino</div>
-      <div class="guide-item"><span class="guide-cmd">/daily</span> Puntos diarios gratis</div>
+      <div class="guide-item"><span class="guide-cmd">/daily</span> Puntos diarios gratis <span style="font-size:0.75rem;color:var(--gold-light)">(VIP & Premium)</span></div>
     </div>
     <div>
       <div class="guide-section-title">Cómo ganar puntos</div>
